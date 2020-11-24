@@ -97,7 +97,7 @@
         };
 
         /**
-        * Moves sectio up
+        * Moves section up
         */
         PP.moveSectionUp = function () {
             var prev = $('.pp-section.active').prev('.pp-section');
@@ -885,10 +885,12 @@
         * Scrolls to the section when clicking the navigation bullet
         */
         $(document).on('click touchstart', '#pp-nav a', function(e){
+            
             e.preventDefault();
             var index = $(this).parent().index();
 
             scrollPage($('.pp-section').eq(index));
+            
         });
 
         /**

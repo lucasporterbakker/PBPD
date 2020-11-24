@@ -490,7 +490,8 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
   right: 0;
   bottom: 0;
   z-index: 990;
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: #33333390;
   max-width: 100%;
   width: 100%;
   padding: 4.25rem 4.375rem 4.1875rem;
@@ -603,14 +604,15 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
 
 .menu-main a,
 .menu-main a:hover {
-	color: #1f2044;
+	/* color: #1f2044; */
+	color: #fcf1e7;
 	text-decoration: none;
 }
 
 .menu-main .active a,
 .menu-main a:hover {
-	background-color: #fcf1e7;
-	box-shadow: #fcf1e7 0 0 0 2px;
+	background-color: #1f2044;
+	box-shadow: #1f2044 0 0 0 2px;
 }
 
 .menu-main a:after {
@@ -2177,7 +2179,7 @@ h3.slide-title {
 }
 
 .is-dark .menu {
-	background-color: #202044;
+	background-color: #20204490;
 }
 
 .is-dark .hide-menu {
