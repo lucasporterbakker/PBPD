@@ -414,6 +414,7 @@ label.error {
   height: 2px;
   width: 83.33333333%;
   background: #3E4651;
+  /* background: #ffffff; */
   transition: all 400ms ease-in-out;
 }
 
@@ -513,7 +514,7 @@ html:not(.body-menu-opened) .hamburger:hover .bottom-bun {
   right: 0;
   top: 0;
   bottom: 100%;
-  background: rgba(0,0,0,.65);
+  background: rgba(0,0,0,.55);
   z-index: 980;
 }
 
@@ -2183,7 +2184,8 @@ h3.slide-title {
 }
 
 .is-dark .hide-menu {
-	background-color: transparent;
+	/* background-color: transparent; */
+	background: rgba(0,0,0,.55);
 }
 
 .is-dark .menu-main .active a,
