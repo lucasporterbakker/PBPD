@@ -1530,21 +1530,42 @@ h3.slide-title {
 
 /* 4.4 Slide Resume */
 
+@media (max-width: 768px){
+	.slide-photo-bg-rounded{
+		margin: 5rem 10rem 3rem 10rem;
+	}
+	.name {
+			margin: auto 10rem 3rem 10rem;
+		} 
+	.name > h2{
+		font-size: 2rem;
+	}
+} 
+	
+
+
 .slide-photo-education,
 .slide-photo-experience {
 	margin-bottom: 2.1875rem;
 }
 
 .slide-photo-bg-rounded {
-	padding: 14.59459459% 14.32432432% 2.70270270%;
+	padding: 4.59459459% 12.32432432% 1.70270270%;
+	
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-size: contain;
+}
+@media (min-width: 769px) {
+	.slide-photo-bg-rounded {
+		padding: 14.59459459% 14.32432432% 2.70270270%;
+	}
 }
 
 .photo-bg-education {
 	background-image: url("../img/slide4-1-bg.png");
 }
+
 
 .education-image {
 	margin-top: 7.19696970%;

@@ -593,7 +593,13 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
-
+@media (max-width: 499px){
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
