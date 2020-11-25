@@ -60,7 +60,7 @@
 		$('.a-pagepiling').pagepiling({
 			scrollingSpeed: 280,
 			menu: '#menu, #menuMain',
-			anchors: ['About', 'Services', 'Skills', 'Resume', 'Portfolio', 'Clients','Testimonials',  'Contact'],
+			anchors: ['About', 'Services', 'Method', 'Team', 'Portfolio', 'Clients','Testimonials',  'Contact'],
 			loopTop: false,
 			loopBottom: false,
 			navigation: {
@@ -68,7 +68,7 @@
 			},
 			onLeave: function(){
 				$('.a-progressbar .progress-bar').each(function() {
-					if ($('.slide-skills').hasClass('active')) {
+					if ($('.slide-method').hasClass('active')) {
 						$(this).width($(this).attr('aria-valuenow') + '%');
 					} else {
 						$(this).width('0');
