@@ -112,6 +112,7 @@ img {
 	.container-fluid {
 		padding-left: 4.375rem;
 		padding-right: 4.375rem;
+		
 	}
 }
 
@@ -2381,6 +2382,7 @@ h3.slide-title {
 
 @media (min-width: 1600px) {
   html {
-    font-size: 16px;
+		font-size: 16px;
+		
   }
 }

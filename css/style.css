@@ -112,6 +112,7 @@ img {
 	.container-fluid {
 		padding-left: 4.375rem;
 		padding-right: 4.375rem;
+		
 	}
 }
 
@@ -1559,13 +1560,16 @@ h3.slide-title {
 @media (min-width: 769px) {
 	.slide-photo-bg-rounded {
 		padding: 14.59459459% 14.32432432% 2.70270270%;
-		/* margin: 4rem; */
+		margin: 1.5rem;
 	}
 
-	/* .name >h2 {
+	.profile {
+		padding: 3rem
+	}
+	.name >h2 {
 		font-size: 1.7rem
-	}  */
-
+	} 
+}
 
 .photo-bg-education {
 	background-image: url("../img/slide4-1-bg.png");
@@ -1604,7 +1608,7 @@ h3.slide-title {
 
 .vacancy-item-title {
 	margin-bottom: .8125rem;
-	font-size: 1.125rem;
+	font-size: 1rem;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -2412,6 +2416,7 @@ h3.slide-title {
 
 @media (min-width: 1600px) {
   html {
-    font-size: 16px;
+		font-size: 16px;
+		
   }
 }
