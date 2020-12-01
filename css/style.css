@@ -21,7 +21,7 @@
 	  4.5 Slide Portfolio
 	  4.6 Slide Awards
 	  4.7 Slide Testimonials
-	  4.8 Slide Clients
+	  4.8 Slide Partners
 	  4.9 Slide Contact
 
   5.  Footer
@@ -1858,7 +1858,7 @@ h3.slide-title {
 }
 
 
-
+/* actually applies to partner items */
 .slide-photo-clients {
 	height: 0;
 	padding-bottom: 92.10526316%;
