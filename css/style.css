@@ -1672,12 +1672,12 @@ h3.slide-title {
 }
 
 /* 4.4.1 Slide Clients */
-.client-list {
+.client-companies {
 	list-style: none;
-	text-align: center
+	text-align: center;
 }
 
-.client-list > li{
+.client-companies > li{
 	margin-top: 1.5rem;	
 	text-align: left;
 }
@@ -1686,7 +1686,7 @@ h3.slide-title {
 	text-transform: uppercase;
 }
 
-.client-list > li > ul {
+.client-companies > li > ul {
 	list-style: none;
 	padding: 0;
 	margin: 0.5rem 0 0 0;
