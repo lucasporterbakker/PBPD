@@ -17,11 +17,12 @@
 	  4.1 Slide About
 	  4.2 Slide Services
 	  4.3 Slide Skills
-	  4.4 Slide Resume(team)
+		4.4 Slide Resume(team)
+		4.4.1 Slide Clients
 	  4.5 Slide Portfolio
 	  4.6 Slide Awards
 	  4.7 Slide Testimonials
-	  4.8 Slide Clients
+	  4.8 Slide Partners
 	  4.9 Slide Contact
 
   5.  Footer
@@ -112,6 +113,7 @@ img {
 	.container-fluid {
 		padding-left: 4.375rem;
 		padding-right: 4.375rem;
+		
 	}
 }
 
@@ -1528,7 +1530,7 @@ h3.slide-title {
 
 
 
-/* 4.4 Slide Resume */
+/* 4.4 Slide Team */
 
 @media (max-width: 768px){
 	.slide-photo-bg-rounded{
@@ -1551,7 +1553,7 @@ h3.slide-title {
 
 .slide-photo-bg-rounded {
 	padding: 4.59459459% 12.32432432% 1.70270270%;
-	
+	/* border: 1px solid greenyellow; */
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-size: contain;
@@ -1559,11 +1561,20 @@ h3.slide-title {
 @media (min-width: 769px) {
 	.slide-photo-bg-rounded {
 		padding: 14.59459459% 14.32432432% 2.70270270%;
+		margin: 1.5rem;
 	}
+
+	.profile {
+		padding: 3rem
+	}
+	.name >h2 {
+		font-size: 1.7rem
+	} 
 }
 
 .photo-bg-education {
 	background-image: url("../img/slide4-1-bg.png");
+	
 }
 
 
@@ -1598,7 +1609,7 @@ h3.slide-title {
 
 .vacancy-item-title {
 	margin-bottom: .8125rem;
-	font-size: 1.125rem;
+	font-size: 1rem;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -1660,7 +1671,33 @@ h3.slide-title {
 	background: #464989;
 }
 
+/* 4.4.1 Slide Clients */
+.client-companies {
+	list-style: none;
+	text-align: center;
+}
 
+.client-companies > li{
+	margin-top: 1.5rem;	
+	text-align: left;
+}
+
+.vertical {
+	text-transform: uppercase;
+}
+
+.client-companies > li > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0.5rem 0 0 0;
+	text-align: left;
+}
+/* @media (min-width: 992px) {
+	.container {
+		margin-right: 20%;
+		margin-left: 20%;
+	}
+} */
 
 /* 4.6 Slide Awards */
 
@@ -1858,7 +1895,7 @@ h3.slide-title {
 }
 
 
-
+/* actually applies to partner items */
 .slide-photo-clients {
 	height: 0;
 	padding-bottom: 92.10526316%;
@@ -2406,6 +2443,7 @@ h3.slide-title {
 
 @media (min-width: 1600px) {
   html {
-    font-size: 16px;
+		font-size: 16px;
+		
   }
 }
