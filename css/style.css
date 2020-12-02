@@ -17,7 +17,8 @@
 	  4.1 Slide About
 	  4.2 Slide Services
 	  4.3 Slide Skills
-	  4.4 Slide Resume(team)
+		4.4 Slide Resume(team)
+		4.4.1 Slide Clients
 	  4.5 Slide Portfolio
 	  4.6 Slide Awards
 	  4.7 Slide Testimonials
@@ -1529,7 +1530,7 @@ h3.slide-title {
 
 
 
-/* 4.4 Slide Resume */
+/* 4.4 Slide Team */
 
 @media (max-width: 768px){
 	.slide-photo-bg-rounded{
@@ -1670,7 +1671,33 @@ h3.slide-title {
 	background: #464989;
 }
 
+/* 4.4.1 Slide Clients */
+.client-list {
+	list-style: none;
+	text-align: center
+}
 
+.client-list > li{
+	margin-top: 1.5rem;	
+	text-align: left;
+}
+
+.vertical {
+	text-transform: uppercase;
+}
+
+.client-list > li > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0.5rem 0 0 0;
+	text-align: left;
+}
+/* @media (min-width: 992px) {
+	.container {
+		margin-right: 20%;
+		margin-left: 20%;
+	}
+} */
 
 /* 4.6 Slide Awards */
 
