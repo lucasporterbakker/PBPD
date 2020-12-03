@@ -35,8 +35,6 @@
 			$('.a-intro').addClass('active');
 		}
 
-		//set body to inner height of window to avoid address bar taking up viewport height
-		($('body')).height(window.innerHeight);
 	});
 
 
