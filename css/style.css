@@ -1672,6 +1672,10 @@ h3.slide-title {
 }
 
 /* 4.4.1 Slide Clients */
+
+.splotches {
+	filter: opacity(30%)
+}
 .client-companies {
 	list-style: none;
 	text-align: center;
@@ -1689,7 +1693,7 @@ h3.slide-title {
 .client-companies > li > ul {
 	list-style: none;
 	padding: 0;
-	margin: 0.5rem 0 0 0;
+	margin: 0.2rem 0 0 0;
 	text-align: left;
 }
 /* @media (min-width: 992px) {
