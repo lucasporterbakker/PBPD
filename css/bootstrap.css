@@ -598,6 +598,7 @@ pre code {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5rem;
   }
 }
 .no-gutters {
